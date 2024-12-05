@@ -18,6 +18,7 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
        
        let p = document.createElement("p");
        p.textContent=data.slogan
+       
        let btnA = document.createElement("button");
        btnA.textContent=data.bouton
        let ul = document.createElement("ul");
@@ -45,26 +46,50 @@ fetch('https://js-dynamic-portfolio-data-makerslab-emlyon-cdweb-8f83155c64a0cc.g
     
        btnP1.addEventListener("click", function() {
 
-       data.produits.forEach(element => {
-
+        
         let div = document.createElement("div");
+        div.className="produits-container";
         prod.appendChild(div);
+       data.produits.forEach(element => {
+        let div1 = document.createElement("div")
+        div.appendChild(div1)
+        div1.setAttribute("class","divcss")
         let h3 = document.createElement("h3");
         h3.textContent=element.titre
-        div.appendChild(h3);
+        div1.appendChild(h3);
         let p = document.createElement("p");
         p.textContent=element.presentation
-        div.appendChild(p);
+        div1.appendChild(p);
         let img = document.createElement("img");
         img.src = element["image-url"];
-        div.appendChild(img)
-       });
+        div1.appendChild(img)
 
+        
+    });
+    
+    
+    
+    
+})
 
-       })
+btnP2.addEventListener("click", function () {
+    
+    let container = document.querySelector(".produits-container");
+    if (container) {
+        container.remove();
+    }
+});
+let divcli = document.createElement("div");
+    divcli.className="avis-container";
+    Clients.appendChild(divcli);
+
+let h2c = document.createElement("h2");
+   h2c.textContent="Avis Clients"
+   Clients.appendChild(h2c);
        data.clients.forEach(element => {
+   
     let div = document.createElement("div");
-    Clients.appendChild(div);
+    divcli.appendChild(div);
     let h3 = document.createElement("h3");
     h3.textContent=element.nom;
     div.appendChild(h3);

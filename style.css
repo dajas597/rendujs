@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    background-color: #311006;
+    p{
+        color: #c7bc69;
+    }
+    h2{
+        color: #c8b944
+    }
+    /* width: 300px; */
+    h1{
+        color: #c8b944;
+    }
+    li{
+        color: #c7bc69
+    }
+    h3{
+        color: #c8b944;
+    }
+}
+
+button{
+    color: #c8b944;;
+    background-color: #311006;
+    border: solid;
+    font-size: 20px;
+    font-weight: 800;
+    height: 50px;
+    width: 300px;
+    
+}
+
+button:hover{
+color: rgb(255, 255, 255);
+}
+
+img{
+    width: 230px;
+    height: 230px;
+    display: flex;
+   
+}
+#Produit{
+
+    p{
+        
+        width: 300px;
+        height: 100px;
+    }
+    }
+    /* #Produit{
+    display: flex;
+    justify-content: center ;
+} */
+.produits-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    div {
+        gap: 10PX;
+    }
+    
+}
+
+/* 
+#Produit{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+} */
+/* 
+.divcss{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+    
+
+#Accueil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    p
+
+    {font-size: 30px;
+    }
+    
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal; 
+
+}
+
+.divcli{
+    display: flex;
+    
+}
+
+footer{
+    display: flex;
+    flex-direction: column-reverse;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+}
+
+.avis-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    div {
+        gap: 10PX;
+    }
+    p{
+        width: 300px;
+          font-family: "Caveat", cursive;
+          font-optical-sizing: auto;
+          font-weight: <weight>;
+          font-style: normal;
+          font-size: 25px;
+        }
+        h3{
+            display: flex;
+            justify-content: center;
+            font-size: 32px;
+            color: #c8b944;
+        }
+    }
+nav{
+    color: #c7bc69;
+    background-color: #0a0808;
+    font-size: 25px;
+    height: 55px;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width:-webkit-fill-available;
+    
+}
+
+.navv{
+    
+    color: #c7bc69;
+    font-size: 25px;
+    display: flex;
+    
+    
+    justify-content: space-around;
+    text-decoration: none;
+    position: fixed;
+    
+}
+li{display: flex;
+justify-content: center;}
+
+#Produit{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #c8b944;
+
+   
+}
+#Clients{
+    border-color: beige;
+    div{
+        border-top: 200px;
+        border: solid 1px #c7b31a;
+    }
+    
+    
+}
+
